@@ -1,0 +1,55 @@
+Slide 1 & 2: Introduction
+
+    Did you know over 60% of investors now consider social media sentiment before making investment decisions in the stock market?
+
+    Good morning, esteemed teachers and respected audience. I am Sushil Uppadhayay, and I am here to present our project titled “Sentimetrics AI: Predicting NEPSE Stock Prices 
+    through Sentiment Analysis”, along with my friends Sushant Poudel and Sulav Timalsina.
+
+Slide 3: Objective & Need of the Project
+
+    What is the need for our project, or what are its core objectives?
+
+    The need for Sentimetrics AI arises from the growing influence of social media on NEPSE's market behavior. Social platforms like Twitter, Facebook, and news portals play a crucial 
+    role in shaping public sentiment, which in turn affects the stock market.
+
+    Our objective is to detect stock trends early, analyze public sentiment, and use that insight to help predict the direction of NEPSE stock prices. By doing this, we aim to 
+    make stock prediction more responsive and real-time, based on social mood rather than just historical numbers.
+
+Slide 4: Literature Review
+
+    Let’s now move into the Literature Review section to explore previous works, identify gaps, and understand the approaches used in past studies.
+
+    Most traditional models rely on historical price and volume data. Some use machine learning but fail to integrate real-time sentiment data.
+
+    Our contribution fills this gap by incorporating natural language processing (NLP) techniques for sentiment extraction, combined with mock and real-time market data to 
+    produce predictions for NEPSE stocks.
+
+Slide 5: System Architecture Overview
+
+    Our system is structured into four main layers, each performing a critical role in the overall pipeline:
+
+    Data Ingestion Layer
+
+    Preprocessing & Sentiment Analysis Layer
+
+    Stock Prediction Layer
+
+    Visualization & Output Layer
+
+Slide 6: Data Ingestion Layer
+
+    Let’s understand the Data Ingestion Layer in detail.
+
+    As mentioned earlier, we first simulate or collect data for both NEPSE stock prices and related news or social media posts.
+
+    This is done using a custom-built Python class that:
+
+    1. Loops through selected NEPSE shares
+
+    2. Generates realistic stock prices using trends, sine waves, and market noise
+
+    3. Produces daily news headlines with variable sentiment
+
+    4. Stores this information in CSV format for further analysis
+
+    5. The purpose of this layer is to ensure we have high-quality, time-aligned data for both price and public sentiment, setting a strong foundation for model training and evaluation.
